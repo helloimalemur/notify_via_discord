@@ -1,7 +1,7 @@
 # Notify_Via_Discord
     Rust micro-app used to send messages to Discord web-hook ~(Nagios compatible)~
 
-    sends POST request to specified Discord webhook url after building and appending json with specified username and message 
+    sends POST to specified Discord webhook url using specified username and message
 
     Format: ./notify_discord $api_url$ $username$ $message$
 
