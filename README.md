@@ -12,3 +12,9 @@ builds in /tmp and copies bin to /usr/local/nagios/libexec/
 ```agsl
 curl https://raw.githubusercontent.com/helloimalemur/notify_via_discord/main/src/install_as_nagios_plugin.sh | sh
 ```
+
+### Normal build
+    git clone https://github.com/helloimalemur/notify_via_discord.git
+    cd notify_via_discord/
+    cargo build
+    ./target/debug/notify_via_discord $api_url$ $username$ $message$
